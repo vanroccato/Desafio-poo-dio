@@ -1,9 +1,12 @@
 package br.com.dio.desafio.dominio;
 
 public class Curso {
-    private  String titulo;
+    private String titulo;
     private String descricao;
     private int cargaHoraria;
+
+    public Curso() {
+    }
 
     public String getTitulo() {
         return titulo;
@@ -21,13 +24,8 @@ public class Curso {
         this.descricao = descricao;
     }
 
-    public Curso() {
-    }
-
     public int getCargaHoraria() {
         return cargaHoraria;
-
-
     }
 
     public void setCargaHoraria(int cargaHoraria) {
